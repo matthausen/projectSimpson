@@ -6,7 +6,7 @@ Move around and catch falling object with your mouse.
 Languages and technologies used:
 - Javascript
 - Jquery
-- Html, Css
+- Html, Css, Bootstrap, Google Fonts
 - Object constructors, objects
 
 
