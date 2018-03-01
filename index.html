@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Simpson Game</title>
+
+	<!-- ====== CSS file ============ -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+	<!-- ======== Script files ======== -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<!-- ====== Landing page ===== -->
+	<div id="landingPage" class="container landingPage">
+		<!-- ====== instructions division ====== -->
+		<h1 class="text-center title">Welcome to The Simpson's game!</h1>
+		<p class="text-center">Game instructions:</p>
+		<div class="container instructions">
+			<ul>
+				<li>Move you mouse on the screen to move Homer</li>
+				<li>Left click to eat donuts or drink beer</li>
+				<li>If you eat too many donuts Marge will not be happy</li>
+				<li>If you get drunk on beers Marge will not be happy</li>
+			</ul>
+			<img class="logoHomer" src="https://www.partyworld.ie/store_images/customcontent/0/homer_simpson_picture_jpg.jpg" alt="simpsonGame">
+		</div>
+		<button id="play" class="btn btn-success">Play</button>
+	</div>
+
+
+	<!-- ========= The game division ======= -->
+	<div id="game" class="container game">
+		<div id="score" class="score">00</div>
+		<div class="container">
+		</div>
+		<div id="homerSimpson"></div>
+	</div>
+</body>
+
+<!-- ========== End game window ======= -->
+
+<div id="endGame" class="container endGame">
+	<div class="container flexbox">
+		<div class="text-center">Marge is getting angry! Don't eat or drink too much...</div>
+		<div class="image">
+			<img id="logoMarge" src="img/margeAngry.png" alt="margeAngry">
+		</div>
+	</div>
+	<div class="options">
+		<button id="continue" class="btn btn-default">Continue</button>
+		<button id="quit" class="btn btn-danger">Quit</button>
+	</div>
+</div>
+
+<!-- ==========Main Javascript file ========= -->
+<script src="script.js"></script>
+
+</html>
